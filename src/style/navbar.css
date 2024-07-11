@@ -1,0 +1,17 @@
+.navLogoImg1{
+    display: none;
+}
+ 
+ @media screen and (min-width: 900px) {
+    .navLogoImg2{
+        display: none;
+    }
+    .navLogoImg1{
+        display: flex;
+    }
+}
+
+.navBar{
+    background: linear-gradient(90deg, rgba(60,59,82,1) 0%, rgba(75,1,1,0.4907212885154062) 45%, rgba(0,212,255,1) 100%);
+}
+
