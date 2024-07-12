@@ -137,9 +137,9 @@ function Navbar() {
             }}
           ></Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
+            {pages.map((page, index) => (
               <Button
-                key={page.title}
+                key={index}
                 onClick={() => {
                   handleCloseNavMenu();
                   navigate(page.path);
