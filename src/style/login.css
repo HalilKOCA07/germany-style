@@ -1,0 +1,18 @@
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 35rem;
+}
+
+.loginForm input{
+    width: 30rem;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.MuiInputBase-root{
+    border-radius: 10px;
+}
